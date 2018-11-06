@@ -32,11 +32,11 @@ const cli = meow(`
     }
 });
 
-const input = cli.input[0];
+const input = cli.input;
 
 if (input.length === 0) {
     console.error('No args provided');
     process.exit(1);
 }
 
-makeDirRange(input, cli.flags)
+makeDirRange(input[0], cli.flags)
