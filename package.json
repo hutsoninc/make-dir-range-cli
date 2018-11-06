@@ -5,9 +5,15 @@
   "bin": {
 		"make-dir-range": "cli.js"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "cli.js"
+  ],
   "keywords": [
     "mkdir",
     "integer",

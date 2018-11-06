@@ -1,10 +1,11 @@
+#!/usr/bin/env node
 'use strict';
 const meow = require('meow');
 const makeDirRange = require('make-dir-range');
 
 const cli = meow(`
 	Usage
-	  $ make-dir-range <int>-<int> 
+	  $ make-dir-range <int>-<int>
 	Options
       --destination, -d  Destination for dirs
       --prepend, -p  Prepend to dir name
@@ -31,7 +32,7 @@ const cli = meow(`
     }
 });
 
-const input = cli.input;
+const input = cli.input[0];
 
 if (input.length === 0) {
     console.error('No args provided');
