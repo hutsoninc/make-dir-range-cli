@@ -60,7 +60,7 @@ $ tree
 
 Follow the instructions on [this Stack Overflow answer](https://stackoverflow.com/a/21040825/8268314) to set up an alias on Windows.
 
-UNIX
+### UNIX
 
 ```
 alias mdr=make-dir-range
@@ -69,6 +69,8 @@ alias mdr=make-dir-range
 ## Related
 
 - [make-dir-range](https://github.com/hutsoninc/make-dir-range) - API for this module
+- [copy-to-range-cli](https://github.com/hutsoninc/copy-to-range-cli) - Copy a file to a range of directories
+- [move-to-range-cli](https://github.com/hutsoninc/move-to-range-cli) - Move files to corresponding directories given a range
 
 ## Authors
 
