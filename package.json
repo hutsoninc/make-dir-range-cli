@@ -44,7 +44,7 @@
     "url": "https://github.com/hutsoninc/make-dir-range-cli"
   },
   "dependencies": {
-    "make-dir-range": "^1.0.2",
+    "make-dir-range": "^1.0.3",
     "meow": "^5.0.0"
   }
 }
