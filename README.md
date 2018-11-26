@@ -1,5 +1,7 @@
 # make-dir-range-cli
 
+[![Current npm package version](https://img.shields.io/npm/v/make-dir-range-cli.svg)](https://www.npmjs.com/package/make-dir-range-cli) 
+
 Make directories from ranges of integers.
 
 ## Installation
@@ -37,7 +39,7 @@ $ tree
 │ ...
 ```
 
-With options:
+### With options:
 
 ```
 $ make-dir-range 11-13,15 --destination out --append a --prepend p
@@ -52,7 +54,13 @@ $ tree
 │ ...
 ```
 
-Create a shell alias:
+## Command Line/Shell Alias
+
+### Windows
+
+Follow the instructions on [this Stack Overflow answer](https://stackoverflow.com/a/21040825/8268314) to set up an alias on Windows.
+
+UNIX
 
 ```
 alias mdr=make-dir-range

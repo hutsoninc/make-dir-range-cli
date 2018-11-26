@@ -39,4 +39,4 @@ if (input.length === 0) {
     process.exit(1);
 }
 
-makeDirRange(input[0], cli.flags)
+makeDirRange(input[0], cli.flags);
