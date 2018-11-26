@@ -1,6 +1,6 @@
 {
   "name": "make-dir-range-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Make directories from ranges of integers.",
   "bin": {
     "make-dir-range": "cli.js"
